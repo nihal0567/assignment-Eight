@@ -8,9 +8,9 @@ import heroBg from '/hero.png'
 
 const HeroSection = () => {
     return (
-        <div className='container mx-auto'>
+        <div className=''>
             <div>
-                <div className='text-center'>
+                <div className='container mx-auto'>
                     <div className='text-4xl md:text-6xl  font-bold'>We Build</div>
                     <div className='text-4xl md:text-6xl font-bold'><span className='text-red-400'>Productive</span> Apps</div>
 
@@ -21,7 +21,27 @@ const HeroSection = () => {
                         
                     </div>
                     <div className='flex justify-center '>
-                        <img className='p-5' src={heroBg} alt="" />
+                        <img className='' src={heroBg} alt="" />
+                    </div>
+                </div>
+                <div className=' bg-gradient-to-r from-[#4311b6] [#4311b6] '>
+                    <h1 className='text-2xl md:text-6xl font-bold text-white pt-20 pb-10'>Trusted by Millions, Built for You</h1>
+                    <div className='grid grid-cols-1 md:grid-cols-3 md:h-[300px] h-[550px]'>
+                    <div className=''>
+                        <h2 className='font-semibold text-xl text-white'>Total Downloads</h2>
+                        <div className='py-4 font-bold text-white text-7xl'>29.6M</div>
+                        <div className='text-xl text-white'>21% more than last month</div>
+                    </div>
+                    <div className=''>
+                        <h2 className='font-semibold text-xl text-white'>Total Reviews</h2>
+                        <div className='py-4 font-bold text-white text-7xl'>906K</div>
+                        <div className='text-xl text-white'>46% more than last month</div>
+                    </div>
+                    <div>
+                        <h2 className='font-semibold text-xl text-white'>Active Apps</h2>
+                        <div className='py-4 font-bold text-white text-7xl'>132+</div>
+                        <div className='text-xl text-white'>31 more will Launch</div>
+                    </div>
                     </div>
                 </div>
             </div>

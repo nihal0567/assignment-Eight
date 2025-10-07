@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <div className='flex items-center gap-1 md:ml-10'>
                 <img className='w-5 md:w-10' src={homeIcon} alt="" />
-            <NavLink to='/' className="font-bold text-[#5b24db] text-xl">HERO.IO</NavLink>
+            <NavLink to='/' className="font-bold text-[#5b24db] text-xs md:text-xl">HERO.IO</NavLink>
             </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
             
-            <a className="btn text-white font-semibold mr-3 md:mr-10 bg-gradient-to-tl from-[#4311b6] [#2f2052] "><span><Github/></span> Contribute</a>
+            <a className="btn text-white font-semibold mr-3 md:mr-10 bg-gradient-to-r from-[#4311b6] [#2f2052] "><span><Github/></span> Contribute</a>
         </div>
         </div>
     );
