@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://example.com/images/app1.png",
+    "title": "SnapPic Editor",
+    "companyName": "Pixora Labs",
+    "id": 1,
+    "description": "Powerful photo editing app. Offers filters and effects. Easy sharing to social media. Smooth and fast performance.",
+    "size": 54,
+    "reviews": 18432,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 12632 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.png",
+    "title": "TaskMate Pro",
+    "companyName": "Workify Inc.",
+    "id": 2,
+    "description": "Smart task manager with reminders. Syncs across devices seamlessly. Offers dark and light themes. Boosts daily productivity easily.",
+    "size": 32,
+    "reviews": 9872,
+    "ratingAvg": 4.4,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5742 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.png",
+    "title": "FitTrack",
+    "companyName": "ActivePulse",
+    "id": 3,
+    "description": "Comprehensive fitness tracker app. Monitors heart rate and steps. Custom workout and meal plans. Encourages healthy lifestyle daily.",
+    "size": 61,
+    "reviews": 21145,
+    "ratingAvg": 4.7,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 13645 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app4.png",
+    "title": "TuneWave",
+    "companyName": "SonicPlay Ltd.",
+    "id": 4,
+    "description": "Stream millions of songs online. Create custom playlists easily. High-quality audio streaming supported. Works offline with downloads.",
+    "size": 78,
+    "reviews": 40894,
+    "ratingAvg": 4.8,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 29194 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.png",
+    "title": "NoteEase",
+    "companyName": "MindPad Technologies",
+    "id": 5,
+    "description": "Simple and elegant note app. Supports handwriting and voice notes. Auto cloud backup included. Organized interface for quick access.",
+    "size": 29,
+    "reviews": 7560,
+    "ratingAvg": 4.5,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 4010 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinSmart Ltd.",
+    "id": 6,
+    "description": "Personal finance tracker app. Auto-categorizes expenses smartly. Helps set savings goals easily. Generates monthly spending reports.",
+    "size": 38,
+    "reviews": 14230,
+    "ratingAvg": 4.3,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 7280 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.png",
+    "title": "QuickScan PDF",
+    "companyName": "DocuVision",
+    "id": 7,
+    "description": "Fast and clear document scanner. Converts files into sharp PDFs. Auto-edge detection supported. Works offline without login hassle.",
+    "size": 45,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.png",
+    "title": "LangGo",
+    "companyName": "LinguaTech",
+    "id": 8,
+    "description": "Learn new languages interactively. Includes speech recognition tools. Daily lessons with gamified tasks. Offline learning available too.",
+    "size": 80,
+    "reviews": 35500,
+    "ratingAvg": 4.9,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 25300 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app9.png",
+    "title": "WeatherNow",
+    "companyName": "SkyCast",
+    "id": 9,
+    "description": "Accurate real-time weather updates. Provides radar and storm alerts. Customizable widgets available too. Clean and minimal interface.",
+    "size": 36,
+    "reviews": 18400,
+    "ratingAvg": 4.5,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app10.png",
+    "title": "StoryVerse",
+    "companyName": "FableWorks",
+    "id": 10,
+    "description": "Read and write stories freely. Share tales with global readers. Offers writing challenges daily. Engaging and social storytelling app.",
+    "size": 70,
+    "reviews": 21400,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 13600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app11.png",
+    "title": "ClipCash Rewards",
+    "companyName": "Earnify Labs",
+    "id": 11,
+    "description": "Watch clips and earn rewards. Easy withdrawal to wallet system. Daily bonus and tasks included. Simple interface for quick earning.",
+    "size": 28,
+    "reviews": 19300,
+    "ratingAvg": 4.2,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app12.png",
+    "title": "FocusZen",
+    "companyName": "CalmSphere",
+    "id": 12,
+    "description": "Focus and meditation tool. Features ambient sound collection. Daily mindfulness reminders included. Helps improve mental clarity gently.",
+    "size": 52,
+    "reviews": 8700,
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app13.png",
+    "title": "FoodSnap",
+    "companyName": "TastyTech",
+    "id": 13,
+    "description": "Discover food recipes visually. Scan ingredients for suggestions. Step-by-step cooking guidance. Community sharing and rating features.",
+    "size": 59,
+    "reviews": 13400,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 7100 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app14.png",
+    "title": "TripTrek",
+    "companyName": "GoGlobal",
+    "id": 14,
+    "description": "Plan trips with smart itineraries. Book hotels and flights easily. Includes offline map access. Travel reviews from real explorers.",
+    "size": 88,
+    "reviews": 25900,
+    "ratingAvg": 4.7,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 16300 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app15.png",
+    "title": "SecureVault",
+    "companyName": "CyberNova",
+    "id": 15,
+    "description": "Store passwords safely encrypted. Biometric authentication support. Syncs securely across devices. Protects against phishing threats.",
+    "size": 44,
+    "reviews": 12100,
+    "ratingAvg": 4.8,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 7700 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app16.png",
+    "title": "EcoTrack",
+    "companyName": "GreenLeaf Digital",
+    "id": 16,
+    "description": "Track your carbon footprint daily. Suggests eco-friendly actions. Shows monthly impact reports. Encourages sustainable living habits.",
+    "size": 40,
+    "reviews": 8100,
+    "ratingAvg": 4.4,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3850 }
+    ]
+  }
+]
