@@ -21,7 +21,7 @@ const HeroSection = () => {
                         
                     </div>
                     <div className='flex justify-center '>
-                        <img className='' src={heroBg} alt="" />
+                        <img className='px-5 md:px-0' src={heroBg} alt="" />
                     </div>
                 </div>
                 <div className=' bg-gradient-to-r from-[#4311b6] [#4311b6] '>

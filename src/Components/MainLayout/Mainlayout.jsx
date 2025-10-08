@@ -8,7 +8,7 @@ const Mainlayout = () => {
     return (
         <div className='flex flex-col min-h-screen'>
             <Navbar></Navbar>
-            <div className='text-center mt-20'>
+            <div className='text-center mt-10 md:mt-20'>
             <HeroSection></HeroSection>
             </div>
             <div className='container mx-auto flex-1'>
