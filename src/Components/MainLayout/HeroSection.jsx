@@ -24,9 +24,9 @@ const HeroSection = () => {
                         <img className='px-5 md:px-0' src={heroBg} alt="" />
                     </div>
                 </div>
-                <div className=' bg-gradient-to-r from-[#4311b6] [#4311b6] '>
+                <div className=' bg-gradient-to-r from-[#4311b6] [#4311b6] md:pt-10 px-0 pb-0'>
                     <h1 className='text-2xl md:text-6xl font-bold text-white pt-20 pb-10'>Trusted by Millions, Built for You</h1>
-                    <div className='grid grid-cols-1 md:grid-cols-3 md:h-[300px] h-[550px]'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 '>
                     <div className=''>
                         <h2 className='font-semibold text-xl text-white'>Total Downloads</h2>
                         <div className='py-4 font-bold text-white text-7xl'>29.6M</div>
