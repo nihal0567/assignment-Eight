@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router";
 
 import Mainlayout from "../Components/MainLayout/Mainlayout";
 import Home from "../Components/Pages/Home";
-import Apps from "../Components/Pages/TrendingApp";
 import ErrorPage from "../Components/Pages/ErrorPage";
 import CountedApps from "../Components/Pages/CountedApps";
 
@@ -21,7 +20,7 @@ const router = createBrowserRouter([
         },
          {
         path: '/app' ,
-        element: <Apps/>
+        element: <a/>
         },
          {
         path: '/countedApp' ,

@@ -1,8 +1,8 @@
 [
   {
-    "image": "https://example.com/images/app1.png",
-    "title": "SnapPic Editor",
-    "companyName": "Pixora Labs",
+    "image": "https://store-images.s-microsoft.com/image/apps.8453.13655054093851568.4a371b72-2ce8-4bdb-9d83-be49894d3fa0.7f3687b9-847d-4f86-bb5c-c73259e2b38e",
+    "title": "Communication app",
+    "companyName": "WhatsApp",
     "id": 1,
     "description": "Powerful photo editing app. Offers filters and effects. Easy sharing to social media. Smooth and fast performance.",
     "size": 54,
@@ -18,9 +18,9 @@
     ]
   },
   {
-    "image": "https://example.com/images/app2.png",
-    "title": "TaskMate Pro",
-    "companyName": "Workify Inc.",
+    "image": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo",
+    "title": "Facebook",
+    "companyName": "Facebook",
     "id": 2,
     "description": "Smart task manager with reminders. Syncs across devices seamlessly. Offers dark and light themes. Boosts daily productivity easily.",
     "size": 32,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app3.png",
+    "image": "https://tryfittrack.com/cdn/shop/files/Mask_group-2_c71b267a-59b6-472b-9481-2004ff91d7a6.png?v=1695825081&width=1320",
     "title": "FitTrack",
     "companyName": "ActivePulse",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app4.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6PrbAY1W63iYd4CnC5aPf571amONqS2xjDQ&s",
     "title": "TuneWave",
     "companyName": "SonicPlay Ltd.",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app5.png",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/f2/12/49f212f9-92fc-e3e5-c82b-b2a90e4ddc5e/en_iPad_2048x2732_1.jpg/643x0w.jpg",
     "title": "NoteEase",
     "companyName": "MindPad Technologies",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app6.png",
+    "image": "https://i.ytimg.com/vi/zrIHbOeaDFM/maxresdefault.jpg",
     "title": "BudgetBuddy",
     "companyName": "FinSmart Ltd.",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app7.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Qd7OdY9rOmxtxQdl51FNeusklekqxTlH4g&s",
     "title": "QuickScan PDF",
     "companyName": "DocuVision",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app8.png",
+    "image": "https://lingua-tech.store/cdn/shop/files/WhatsApp_Image_2025-06-12_a_00.07.45_e8540e05.jpg?v=1749681352&width=3840",
     "title": "LangGo",
     "companyName": "LinguaTech",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app9.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdg6JT6qvLZIPVNDUZ21G61b6SfyKyLrv_Q&s",
     "title": "WeatherNow",
     "companyName": "SkyCast",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app10.png",
+    "image": "https://pbs.twimg.com/media/GxogYQxXQAAmhzC.jpg",
     "title": "StoryVerse",
     "companyName": "FableWorks",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app11.png",
+    "image": "https://play-lh.googleusercontent.com/IYM3rZxEZu6L9tix7zr_zQL6aapskNTw0fRTuaiZETvLPHFG75LRCDXf2od39DVamkA=w526-h296-rw",
     "title": "ClipCash Rewards",
     "companyName": "Earnify Labs",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app12.png",
+    "image": "https://play-lh.googleusercontent.com/sgA5VFU6PS3SqKYOedqoC2-0wk766u7svOKQgNtf2VaqjXgGtWWDsNQUZkNmoAZELQ",
     "title": "FocusZen",
     "companyName": "CalmSphere",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app13.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkh0aUmKwpwWHz6T8HtLLCsKJjwjfKZiWGNQ&s",
     "title": "FoodSnap",
     "companyName": "TastyTech",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app14.png",
+    "image": "https://mytriptrek.com/wp-content/uploads/2024/09/Trip-Trek.jpg",
     "title": "TripTrek",
     "companyName": "GoGlobal",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app15.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MNBZUI9W2kg9dduH-bku_igteDeGS7mQ5A&s",
     "title": "SecureVault",
     "companyName": "CyberNova",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app16.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFYB0xdJV0HkTz6lWa5dFrEkdSC5NwA2OMg&s",
     "title": "EcoTrack",
     "companyName": "GreenLeaf Digital",
     "id": 16,
