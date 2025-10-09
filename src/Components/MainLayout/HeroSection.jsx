@@ -2,6 +2,7 @@ import React from 'react';
 import playIcon from '/gIcon.png'
 import AppIcon from '/appIcon.png'
 import heroBg from '/hero.png'
+import { NavLink } from 'react-router';
 
 
 
@@ -16,15 +17,15 @@ const HeroSection = () => {
 
                     <p className='mt-4 p-2 md:p-2.5 mb-10 text-[#627382]'> At.HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact. </p>
                     <div className='flex gap-3.5 justify-center mb-10'>
-                        <button className="btn p-5 "><span ><img src={playIcon} /></span> Google Play</button>
-                        <button className="btn p-5 "><span ><img src={AppIcon}  /></span> App Store</button>
+                        <NavLink to='https://play.google.com/store/games?hl=en' target='_blank' className="btn p-5 "><span ><img src={playIcon} /></span> Google Play</NavLink>
+                        <NavLink to='https://www.apple.com/app-store/' target='_blank' className="btn p-5 "><span ><img src={AppIcon}  /></span> App Store</NavLink>
                         
                     </div>
                     <div className='flex justify-center '>
                         <img className='px-5 md:px-0' src={heroBg} alt="" />
                     </div>
                 </div>
-                <div className=' bg-gradient-to-r from-[#4311b6] [#4311b6] md:pt-5 px-0 pb-20'>
+                <div className='bg-gradient-to-r from-[#4616b8] to-[#8f7bbd] md:pt-5 px-0 pb-20 '>
                     <h1 className='text-2xl md:text-6xl font-bold text-white pt-14 pb-16'>Trusted by Millions, Built for You</h1>
                     <div className='grid grid-cols-1 md:grid-cols-3 '>
                     <div className=''>
@@ -44,6 +45,11 @@ const HeroSection = () => {
                     </div>
                     </div>
                 </div>
+                <div className='h-60'>
+            <div className='text-3xl md:text-6xl font-semibold text-center mt-20'> Trending Apps </div>
+            <p className='text-[#627382] font-medium mt-5 text-center'>Explore All Trending Apps on the Market developed by us</p>
+
+        </div>
             </div>
         </div>
     );

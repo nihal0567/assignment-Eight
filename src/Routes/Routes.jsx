@@ -3,7 +3,9 @@ import { createBrowserRouter } from "react-router";
 import Mainlayout from "../Components/MainLayout/Mainlayout";
 import Home from "../Components/Pages/Home";
 import ErrorPage from "../Components/Pages/ErrorPage";
-import CountedApps from "../Components/Pages/CountedApps";
+import Application from "../Components/Pages/Application";
+import AllAppsList from "../Components/Pages/AllAppsList";
+import Appdetail from "../Components/Pages/Appdetail";
 
 const router = createBrowserRouter([
   {
@@ -15,17 +17,24 @@ const router = createBrowserRouter([
         {
         index:true,
         element: <Home/>,
-        loader: ()=> fetch('./data.json')
-
-        },
+   
+      },
          {
         path: '/app' ,
-        element: <a/>
+        element: <AllAppsList/>
         },
          {
-        path: '/countedApp' ,
-        element: <CountedApps/>
+        path: '/installation' ,
+        element: <Appdetail/>
         },
+        {
+          path: '/app/:id',
+          element: <Application/>
+        },
+        // {
+        //   path: '/appDetail',
+        //   element: <Appdetail/>
+        // }
     ]
   },
 //   {

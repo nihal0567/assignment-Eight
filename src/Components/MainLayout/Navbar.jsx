@@ -21,7 +21,7 @@ const Navbar = () => {
                 <NavLink to='/app' >Apps</NavLink>
             </li>
             <li>
-                <NavLink to='/countedApp' >Installation</NavLink>
+                <NavLink to='/installation' >Installation</NavLink>
             </li>
             </ul>
             </div>
@@ -39,13 +39,13 @@ const Navbar = () => {
                 <NavLink to='/app' >Apps</NavLink>
             </li>
             <li>
-                <NavLink to='/countedApp' >Installation</NavLink>
+                <NavLink to='/installation' >Installation</NavLink>
             </li>
             </ul>
         </div>
         <div className="navbar-end">
             
-            <a className="btn text-white font-semibold mr-3 md:mr-10 bg-gradient-to-r from-[#4311b6] [#2f2052] "><span><Github/></span> Contribute</a>
+            <NavLink target='_blank' to='https://github.com/nihal0567' className="btn text-white font-semibold mr-3 md:mr-10 bg-gradient-to-r from-[#3e1897] to-[#7662a7] "><span><Github/></span> Contribute</NavLink>
         </div>
         </div>
     );
