@@ -2,13 +2,14 @@
 import React, { useEffect, useState } from 'react';
 import dwi from '../../assets/icon-downloads.png'
 import rvi from '../../assets/icon-ratings.png'
+import { toast } from 'react-toastify';
 
 
 
 
 const Appdetail = () => {
       const [list, setList] = useState([])
-console.log(list);
+
       const [sort, setSort] =  useState('none')
 
       useEffect(()=>{
@@ -16,6 +17,7 @@ console.log(list);
         if(savedItems) setList(savedItems)
       },[])
 
+if (!list.length) return <p className='text-2xl md:text-5xl  flex justify-center font-semibold text-gray-400 items-center h-[440px]'> No Apps Installed yet.</p>
 
       const countedItems = (()=>{
         if (sort == 'count-asc') {
@@ -30,21 +32,23 @@ console.log(list);
       const handleRemove=(id)=>{
         const existingItems = JSON.parse(localStorage.getItem('installation'))
          let updatedList = existingItems.filter(app=> app.id !== id)
+         toast("App Uninstalled")
         setList(updatedList)
        localStorage.setItem('installation', JSON.stringify(updatedList))
       }
 
 
-      const totalStar = {}
-      list.forEach(app=> {
-        const companyName = app.companyName
-        totalStar[companyName] = (totalStar[companyName] || 0) + app.companyName
-      })
+      // const totalStar = {}
+      // list.forEach(app=> {
+      //   const companyName = app.companyName
+      //   totalStar[companyName] = (totalStar[companyName] || 0) + app.companyName
+      // })
 
     return (
         <div className="space-y-6">
-     <div className="flex justify-between py-5 items-center">
-        <h1 className="text-2xl md:text-4xl font-semibold">
+     <div className="space-y-4">
+        <div className='space-y-5 flex justify-between py-5 items-center'>
+          <h1 className="text-2xl md:text-4xl font-semibold">
           ({list.length}) App Installed{" "}
         </h1>
         
@@ -55,6 +59,7 @@ console.log(list);
           <option value="count-dsc">High-&gt;Low</option>
         </select>
         </label>
+        </div>
       </div>
 
       <div className='space-y-3'>
@@ -91,6 +96,7 @@ console.log(list);
         }
       </div>
 
+          <div className="space-y-6" ></div>
 
 
     </div>

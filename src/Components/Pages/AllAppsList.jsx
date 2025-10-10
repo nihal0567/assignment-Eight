@@ -6,9 +6,11 @@ const AllAppsList = () => {
     const { cards } = useCards();
   const [search, setSearch] = useState('');
  
+  
   const term = search.trim().toLocaleLowerCase()
   const searchItems = term ? cards.filter(card => card.title.toLocaleLowerCase().includes(term)) : cards 
-
+  
+  if (!searchItems.length) return <p className='text-2xl md:text-5xl  flex justify-center font-semibold text-gray-400 items-center h-[440px]'> No Apps Found.</p>
 
 
 
